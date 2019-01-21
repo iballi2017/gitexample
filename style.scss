@@ -1,0 +1,27 @@
+body{
+	overflow-x: none;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+	background: #ccc;
+
+	ul{
+		float: right;
+
+		li{
+			float: left;
+			list-style: none;
+
+			a{
+				margin-right: 40px;
+				text-decoration: none;
+				color: #444;
+
+				&:hover{
+					color: #000;
+				}
+			}
+		}
+	}
+}
